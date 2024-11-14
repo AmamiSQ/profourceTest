@@ -1,11 +1,6 @@
 -- Dummy SQL Script
 -- Purpose: Creates a sample database with a few tables and inserts dummy data
 
--- Drop tables if they already exist to avoid errors
-DROP TABLE IF EXISTS Employees;
-DROP TABLE IF EXISTS Departments;
-DROP TABLE IF EXISTS Salaries;
-
 -- Create Departments table
 CREATE TABLE Departments (
     DepartmentID INT PRIMARY KEY,
